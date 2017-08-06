@@ -163,7 +163,6 @@ hr {
   height: 50vh;
   text-align: center;
   border-top: 1px solid rgba(200,200,200,1);
-  border-bottom: 1px solid rgba(200,200,200,1);
 }
 /*
 **BLOG
@@ -181,14 +180,90 @@ hr {
 **CONTACT
 */
 #contact{
-  padding: 40px;
+  /*padding: 40px;*/
   text-align: center;
   color:white;
-  background:rgba(205, 30, 30, 0.8);
+  background:linear-gradient(rgba(254, 224, 227, 0.44), #FEF1F5);
 }
 #contact h2{
-  color:white;
+  color:#50514F;
+}
+#contact{
+  color: #50514F;
 }
 #contact a:hover{
   color: white;
 }
+form{
+  width: 450px;
+  min-height: 250px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #FEE0E3 50%, #FEF1F5 50%);
+}
+form input[type="text"], [type="email"]{
+  background: #fff;
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+  width: 240px;
+  height: 50px;
+
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #5E6472;
+
+  outline: none;
+  border: none;
+
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.2s linear;
+}
+form textarea{
+  background: #fff;
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+  width: 240px;
+  height: 50px;
+
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  color: #5E6472;
+
+  outline: none;
+  border: none;
+
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.2s linear;
+}
+form button[type="submit"]{
+  display: inline-block;
+  color: #252537;
+
+  width: 280px;
+  height: 50px;
+
+  padding: 0 20px;
+  background: #fff;
+  border-radius: 5px;
+
+  outline: none;
+  border: none;
+
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+
+  margin: 7% auto;
+  letter-spacing: 0.05em;
+  }
