@@ -1,11 +1,24 @@
 $(document).ready(function(){
-//wait for document to load
+  //wait for document to load
+  //log
+  console.log('Document Ready!');
 
-$('#typed').typed({
-  strings:["Web Developer.", "Blogger.", "Digital Nomad.","Ux/Ui Designer.", "Traveler."],
-  typeSpeed: 90,
-  backDelay: 800,
-  loop: true,
-  cursor: false
-});
+  //click on the hamburger
+  $('.fa-bars').click(function(){
+    console.log('hamburger clicked!');
+    //Show mobile navigation
+
+    //change visibility
+    $('#mobile-nav').css({
+      visibility:"visible"
+    });
+  });
+
+  // close the mobile navigation
+  $('.fa-times').click(function(){
+    console.log('x clicked!');
+    $('#mobile-nav').css({
+      visibility: "hidden"
+    });
+  });
 });
