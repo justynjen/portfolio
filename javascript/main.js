@@ -5,7 +5,8 @@ $(document).ready(function(){
 
   //click on the hamburger
   $('.fa-bars').click(function(){
-    console.log('hamburger clicked!');
+    // $('.fa-bars').slideToggle();
+    // $('.fa-bars').toggleClass('active');
     //Show mobile navigation
 
     //change visibility

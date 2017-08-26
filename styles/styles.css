@@ -398,6 +398,9 @@ form button[type="submit"]{
 .hamburger{
   display:none;
 }
+.active .hamburger{
+  transform: rotateZ(45deg);
+}
 #mobile-nav{
   position: fixed;
   top:0;
