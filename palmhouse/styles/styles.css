@@ -86,7 +86,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/palmHouse.jpeg");
+  background-image: url("../images/palmHouse.jpg");
   background-attachment: fixed;
   -webkit-filter: greyscale;
   background-color: teal;
