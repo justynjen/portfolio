@@ -71,7 +71,7 @@ li {
 
 hr {
   border: none;
-  border-bottom: 3px solid #323de5;
+  border-bottom: 3px solid rgba(69, 229, 192, 0.82);
   width: 50px;
   margin:0;
   margin-bottom: 2rem;
@@ -105,7 +105,7 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right,rgba(69, 99, 229, 0.70),rgba(50, 61, 229, 0.69));
+  background-image: linear-gradient(to bottom right,rgba(69, 229, 192, 0.82),rgba(50, 216, 229, 0.85);
   opacity: .6;
 }
 
