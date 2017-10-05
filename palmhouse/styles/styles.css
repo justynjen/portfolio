@@ -105,12 +105,12 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right,rgba(69, 229, 192, 0.82),rgba(50, 216, 229, 0.85));
+  background-image: linear-gradient(to bottom right,rgba(69, 229, 192, 0.70),rgba(50, 216, 229, 0.70));
   opacity: .6;
 }
 
 .featured {
-  background-image: linear-gradient(to bottom right,#4563e5,#323de5);
+  background-image: linear-gradient(to bottom right,rgba(69, 229, 192, 0.82),rgba(50, 216, 229, 0.85));
   color: white;
   text-align: center;
 }
