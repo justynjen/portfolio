@@ -418,10 +418,13 @@ form button[type="submit"]{
   color: #fff;
 }
 #mobile-nav a{
-  color:black;
+  color:white;
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'lato', sans-serif;
+}
+#mobile-nav a:hover{
+  color:#343434;
 }
   /*
 **Media Queries for the mobile nav
