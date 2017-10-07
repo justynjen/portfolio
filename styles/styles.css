@@ -293,9 +293,10 @@ hr {
 }
 #contact a{
   font-size: 25px;
+  color: white;
 }
 #contact a:hover{
-  color: white;
+  color: #343434;
 }
 form{
   width: 450px;
