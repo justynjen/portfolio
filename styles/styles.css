@@ -199,7 +199,6 @@ hr {
 **PORTFOLIO
 */
 #portfolio{
-  height: 100vh;
   overflow: hidden;
 }
 @media all and (max-width:768px){
